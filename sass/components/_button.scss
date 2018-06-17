@@ -34,8 +34,17 @@
     }
   }
 
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &::after {
+      background-color: $color-primary;
+    }
+  }
+
   &::after {
-    content: '';
+    content: "";
     display: inline-block;
     height: 100%;
     width: 100%;
